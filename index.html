@@ -8,21 +8,199 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>私の初めてのWebサイト</title>
+    <title>私のカラフルなWebサイト</title>
+
+    <style>
+
+        /* ページ全体 */
+
+        body {
+
+            margin: 0;
+
+            font-family: sans-serif;
+
+            background: linear-gradient(
+
+                135deg,
+
+                #ffb6d9,
+
+                #b9a7ff,
+
+                #8de7ff,
+
+                #fff0a6
+
+            );
+
+            color: #333;
+
+            min-height: 100vh;
+
+        }
+
+        /* ヘッダー */
+
+        header {
+
+            background: white;
+
+            padding: 20px;
+
+            text-align: center;
+
+            border-radius: 0 0 30px 30px;
+
+        }
+
+        header h1 {
+
+            color: #ff55a5;
+
+            font-size: 30px;
+
+        }
+
+        /* メイン部分 */
+
+        main {
+
+            max-width: 850px;
+
+            margin: 40px auto;
+
+            padding: 20px;
+
+        }
+
+        .card {
+
+            background: white;
+
+            padding: 25px;
+
+            margin-bottom: 25px;
+
+            border-radius: 25px;
+
+            box-shadow: 0 8px 20px #00000020;
+
+            text-align: center;
+
+        }
+
+        .card h2 {
+
+            color: #8055e8;
+
+        }
+
+        /* ボタン */
+
+        button {
+
+            background: linear-gradient(
+
+                90deg,
+
+                #ff65a5,
+
+                #9a69ff,
+
+                #45c9ff
+
+            );
+
+            color: white;
+
+            border: none;
+
+            padding: 15px 30px;
+
+            border-radius: 30px;
+
+            font-size: 17px;
+
+            font-weight: bold;
+
+            cursor: pointer;
+
+            transition: 0.3s;
+
+        }
+
+        button:hover {
+
+            transform: scale(1.08);
+
+        }
+
+        /* フッター */
+
+        footer {
+
+            text-align: center;
+
+            padding: 25px;
+
+            color: #555;
+
+        }
+
+    </style>
 
 </head>
 
 <body>
 
-    <h1>私のWebサイトへようこそ！</h1>
+    <header>
 
-    <p>これは私が初めて作ったWebサイトです。</p>
+        <h1>🌈 私のカラフルなWebサイト</h1>
 
-    <button onclick="alert('こんにちは！')">
+        <p>ようこそ！楽しんでいってね！</p>
 
-        クリックしてね！
+    </header>
 
-    </button>
+    <main>
+
+        <section class="card">
+
+            <h2>✨ ようこそ！</h2>
+
+            <p>これは私が作ったオリジナルWebサイトです！</p>
+
+        </section>
+
+        <section class="card">
+
+            <h2>🎨 私の好きなもの</h2>
+
+            <p>楽しいこと、新しいこと、プログラミング！</p>
+
+        </section>
+
+        <section class="card">
+
+            <h2>🎁 ボタンを押してみて！</h2>
+
+            <p>何が起こるかな？</p>
+
+            <button onclick="alert('🌈 こんにちは！楽しんでね！')">
+
+                クリックしてね！
+
+            </button>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        © 2026 My Colorful Website
+
+    </footer>
 
 </body>
 
